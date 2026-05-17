@@ -7,13 +7,13 @@ import time
 
 from PIL import Image
 
-from model import create_model
-from preprocessing import transform
+from app.model import create_model
+from app.preprocessing import transform
 
 
 device = torch.device("cpu")
 
-MODEL_PATH = "../../models/best_model_finetuned.pth"
+MODEL_PATH = "../models/best_model_finetuned.pth"
 
 model = create_model(num_classes=5)
 

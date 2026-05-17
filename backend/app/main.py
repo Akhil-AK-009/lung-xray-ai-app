@@ -4,8 +4,8 @@ from fastapi.staticfiles import StaticFiles
 
 from PIL import Image
 
-from inference import predict_image
-from gradcam import generate_gradcam
+from app.inference import predict_image
+from app.gradcam import generate_gradcam
 
 
 app = FastAPI()
