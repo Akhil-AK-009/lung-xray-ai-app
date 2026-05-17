@@ -1,10 +1,11 @@
 fastapi
-uvicorn
-torch
-torchvision
-numpy
-pillow
+uvicorn[standard]
 python-multipart
+pillow
+numpy
+torch==2.2.2
+torchvision==0.17.2
 opencv-python-headless
 matplotlib
 scikit-learn
+starlette
