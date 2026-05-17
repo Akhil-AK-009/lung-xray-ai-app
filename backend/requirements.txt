@@ -2,7 +2,9 @@ fastapi
 uvicorn
 torch
 torchvision
+numpy
 pillow
 python-multipart
-opencv-python
-numpy
+opencv-python-headless
+matplotlib
+scikit-learn
